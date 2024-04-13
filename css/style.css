@@ -119,6 +119,8 @@ body {
 
 /* team-flex */
 .team {
+  margin: 0 auto;
+  width: 1600px;
   background-color: rgb(245, 244, 250);
 }
 .team-title {
@@ -149,11 +151,13 @@ body {
   text-align: center;
   height: 600px;
   width: 1600px;
+  margin: 0 auto;
   background-image: linear-gradient(
-      to right rgba(47, 48, 58, 0.4) rgba(47, 48, 58, 0.4)
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url(../img/bgi.jpg);
-  margin: 0 auto;
 }
 .hero-button {
   width: 216px;
@@ -180,6 +184,7 @@ body {
   font-family: Roboto;
 }
 /* team */
+
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
